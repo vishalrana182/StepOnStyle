@@ -1,7 +1,8 @@
+import {Routes} from "react-router"
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Shoe from "./Components/shoe-card"
-import Men from "./Components/Men"
+import Men from "./pages/Men"
 function App() {
   return (
     <>
@@ -36,7 +37,7 @@ function App() {
             price="$360.00"
             />
         </div>
-      <Men />
+      
     </>
   )
 

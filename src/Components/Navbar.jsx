@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex justify-center font-medium bg-zinc-900 text-lime-50 px-3 py-1 gap-17">
+            <div className="flex justify-center font-medium bg-zinc-900 text-lime-50 px-3 py-1 gap-17">
                 {
                     links.map((link) => (
                         <a className=" hover:bg-rose-400 p-2 rounded-2xl"
@@ -23,7 +23,7 @@ function Navbar() {
                         </a>
                     ))
                 }
-            </nav>
+            </div>
         </>
 
     )
