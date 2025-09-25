@@ -11,7 +11,19 @@ function App() {
       <div className="flex mt-10 flex-wrap justify-center">
             <h2 className="font-bold">New Arrivals</h2>
         </div>
-        <div className="flex justify-center gap-7 mt-10">
+        <div className="w-3/4 mx-auto grid grid-cols-4 place-items-center gap-4 mt-4">
+            <Shoe 
+            img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
+            name="AKAADA"
+            description= "MACHI BLACK LEATHER"
+            price="$360.00"
+            />
+            <Shoe 
+            img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
+            name="AKAADA"
+            description= "MACHI BLACK LEATHER"
+            price="$360.00"
+            />
             <Shoe 
             img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
             name="AKAADA"
