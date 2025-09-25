@@ -1,7 +1,7 @@
 export default function shoe({img, name, description, price}) {
     return (
         <div className="text-center">
-            <div className="w-70 rounded-2xl">
+            <div className="md:w-[20vw] w-[38vw] rounded-2xl">
                 <img className="w-full h-full rounded-2xl" src={img} alt="Shoe" />
             </div>
             <div className="mt-3">
