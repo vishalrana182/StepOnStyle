@@ -6,7 +6,7 @@ export const Home = () => {
         <>
             <Hero />
             <div className="flex mt-10 flex-wrap justify-center">
-                <h2 className="font-bold">New Arrivals</h2>
+                <h2 className="home_heading tracking-wider text-3xl">New Arrivals</h2>
             </div>
             <div className="md:w-[90vw] w-full md:mx-auto grid md:grid-cols-4 grid-cols-2 md:mt-4 md:gap-4 m-2 p-2 gap-4 justify-items-center">
                 <Shoe
@@ -16,9 +16,9 @@ export const Home = () => {
                     price="$360.00"
                 />
                 <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
-                    name="AKAADA"
-                    description="MACHI BLACK LEATHER"
+                    img={'https://www.enibbana.com/cdn/shop/files/biaadorenougat.jpg?v=1737990306&width=1000'}
+                    name="BIANCO"
+                    description="Biaadore Sand Heel Sandals"
                     price="$360.00"
                 />
                 <Shoe

@@ -4,3 +4,25 @@ body{
     background-color: #18181B;
     color: white;
 }
+
+@font-face {
+    font-family: 'Hourglass';
+    src: url('./assets/font/Hourglass_of_Shine.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-hourglass {
+    font-family: 'Hourglass', sans-serif;
+}
+
+@font-face {
+    font-family: 'nature';
+    src: url('./assets/font/Bulings-Nature.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home_heading {
+    font-family: 'nature', sans-serif;
+}

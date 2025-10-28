@@ -1,10 +1,10 @@
 import Shoe from "../Components/shoe-card";
 
-export const Men = () => {
+export const Kids = () => {
   return (
     <>
     <div className="w-full h-30 text-white flex md:items-end md:justify-start justify-center items-center mb-3">
-      <h1 className="md:relative md:left-52 text-2xl">Men's Footwear</h1>
+      <h1 className="md:relative md:left-52 text-2xl">Kids Footwear</h1>
     </div>
     <div className="capsules">
       
