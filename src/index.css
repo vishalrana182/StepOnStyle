@@ -26,3 +26,11 @@ body{
 .home_heading {
     font-family: 'nature', sans-serif;
 }
+
+/* Grow button only when its inner icon is hovered */
+.button-icon-hover-grow{
+    transition: transform 200ms ease;
+}
+.button-icon-hover-grow:has(.button-icon:hover){
+    transform: scale(1.05);
+}

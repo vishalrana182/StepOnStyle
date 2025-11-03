@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom'
+import { MoveUpRight } from 'lucide-react';
+
 export default function shoe({img, name, description, price}) {
+    const navigate = useNavigate();
     return (
         <div className="text-center">
             <div className="md:w-[20vw] w-[38vw] rounded-2xl">
@@ -14,8 +18,12 @@ export default function shoe({img, name, description, price}) {
                 {price}
             </div>
             <div className="mt-2">
-                <button className="text-white p-4 bg-black cursor-pointer rounded-2xl hover:bg-blue-500">
-                    QUICK VIEW
+                <button
+                    className="group relative inline-flex items-center justify-center text-white p-4 bg-black cursor-pointer rounded-2xl hover:bg-[#8FABD4]"
+                    onClick={() => navigate('/full_view', { state: { img, name, description, price } })}
+                >
+                    <span className="transition-all duration-300 group-hover:pr-6">QUICK VIEW</span>
+                    <MoveUpRight className='absolute right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300' />
                 </button>
             </div>
         </div>

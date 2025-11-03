@@ -20,7 +20,7 @@ export default function Hero() {
                     <button
                         className="relative group bg-white text-black px-4 py-2 rounded-full w-40 mt-4 
              hover:bg-gray-200 cursor-pointer flex items-center justify-center"
-                        onClick={() => navigate('/New_arrival')}
+                        onClick={() => navigate('/New')}
                     >
                         <span className="transition-all duration-300 group-hover:pr-6">
                             Shop Now

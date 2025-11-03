@@ -12,7 +12,7 @@ export const Home = () => {
                 <Shoe
                     img={'https://www.enibbana.com/cdn/shop/files/A00866Cchuk70.jpg?v=1737991104&width=800'}
                     name="CONVERSE"
-                    description="Chuck 70 Plus"
+                    description="Chuck 70 Plus Unisex in Dark Raisin"
                     price="$100.00"
                 />
                 <Shoe
