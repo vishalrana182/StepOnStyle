@@ -10,40 +10,40 @@ export const Home = () => {
             </div>
             <div className="md:w-[90vw] w-full md:mx-auto grid md:grid-cols-4 grid-cols-2 md:mt-4 md:gap-4 m-2 p-2 gap-4 justify-items-center">
                 <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
-                    name="AKAADA"
-                    description="MACHI BLACK LEATHER"
-                    price="$360.00"
+                    img={'https://www.enibbana.com/cdn/shop/files/A00866Cchuk70.jpg?v=1737991104&width=800'}
+                    name="CONVERSE"
+                    description="Chuck 70 Plus"
+                    price="$100.00"
                 />
                 <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/biaadorenougat.jpg?v=1737990306&width=1000'}
-                    name="BIANCO"
-                    description="Biaadore Sand Heel Sandals"
-                    price="$360.00"
+                    img={'https://www.enibbana.com/cdn/shop/files/Lake2.jpg?v=1737992355&width=800'}
+                    name="APAIR"
+                    description="Square String Heeled Sandals"
+                    price="$120.00"
                 />
                 <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
-                    name="AKAADA"
-                    description="MACHI BLACK LEATHER"
-                    price="$360.00"
+                    img={'https://m.media-amazon.com/images/I/61duOUp3usL._SY625_.jpg'}
+                    name="NEW BALANCE"
+                    description="530 unisex"
+                    price="$150.00"
                 />
                 <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
-                    name="AKAADA"
-                    description="MACHI BLACK LEATHER"
-                    price="$360.00"
-                />
-                <Shoe
-                    img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
-                    name="AKAADA"
-                    description="MACHI BLACK LEATHER"
-                    price="$360.00"
+                    img={'https://nb.scene7.com/is/image/NB/u1906ren_nb_02_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440'}
+                    name="NEW BALANCE"
+                    description="NEW BALANCE 1906R"
+                    price="$154.00"
                 />
                 <Shoe
                     img={'https://www.enibbana.com/cdn/shop/files/MAchiblack_c7fe97b9-fd32-484e-827d-b16b27ecf984.jpg?v=1737990913&width=800'}
                     name="AKAADA"
                     description="MACHI BLACK LEATHER"
                     price="$360.00"
+                />
+                <Shoe
+                    img={'https://nb.scene7.com/is/image/NB/ytravbw2_nb_02_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440'}
+                    name="NEW BALANCE"
+                    description="Rave Run v2"
+                    price="$54.00"
                 />
             </div>
             <footer>
