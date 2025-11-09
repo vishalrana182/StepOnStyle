@@ -8,7 +8,7 @@ export default function FullView() {
         <>
             <div className='flex'>
                 <div className='w-2xl ml-10 mt-10 '>
-                    <img className='w-[50vw]h-[55vh]' src={img} alt={name || "Shoe"} />
+                    <img className='w-[50vw] h-[55vh]' src={img} alt={name || "Shoe"} />
                 </div>
                 <div className='w-3xl ml-60 mt-10 '>
                     <h2 className='text-md font-medium text-[#585858]'>{name}</h2>
