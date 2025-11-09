@@ -1,5 +1,6 @@
 {
   "name": "grapegrove",
+  "homepage": "https://vishalrana182.github.io/STEPONSTYLE/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d ."
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
